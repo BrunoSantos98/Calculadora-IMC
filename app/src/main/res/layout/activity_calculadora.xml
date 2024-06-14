@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#056CF2"
+    android:orientation="horizontal"
+    tools:context=".Calculadora">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="24dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Digite seu peso"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:contentDescription="Null"
+                android:src="@drawable/quilograma"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/weigthField"
+            android:layout_width="356dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#FFFFFF"
+            android:hint="EX: 75,5 "
+            android:textSize="24sp"
+            android:inputType="numberDecimal"
+            android:textColor="#FFF"
+            android:textColorHint="#D7D7D7"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Digite sua altura"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:layout_width="37dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="#FFF"
+                android:contentDescription="Null"
+                android:src="@drawable/height"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/heightField"
+            android:layout_width="356dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#FFFFFF"
+            android:hint="EX: 1,70"
+            android:textSize="24sp"
+            android:inputType="numberDecimal"
+            android:textColor="#FFF"
+            android:textColorHint="#D7D7D7"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:id="@+id/btnLimpar"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:backgroundTint="#a5a5a5"
+                android:text="Limpar"
+                android:textSize="28sp"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/btnCalcula"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:backgroundTint="#19BA00"
+                android:text="Calcular"
+                android:textSize="28sp"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutText01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seu IMC é "
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/imcValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.0, "
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+            
+
+            <TextView
+                android:id="@+id/textResult02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="e sua classificação é de: "
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/imcClassification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="magreza"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/tableImg"
+            android:layout_width="336dp"
+            android:layout_height="194dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginStart="15dp"
+            android:contentDescription="Null"
+            android:src="@drawable/table"
+            tools:ignore="HardcodedText" />
+        
+        
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Imc calculator</string>
+    <string name="Magreza">Magreza, procure um médico. Algumas pessoas têm um baixo peso por características do seu organismo e tudo bem. Outras podem estar enfrentando problemas, como a desnutrição. É preciso saber qual é o caso.</string>
+    <string name="normal">Normal, que bom que você está com o peso normal! E o melhor jeito de continuar assim é mantendo um estilo de vida ativo e uma alimentação equilibrada.</string>
+    <string name="soprepeso">Sobrepeso, ele é, na verdade, uma pré-obesidade e muitas pessoas nessa faixa já apresentam doenças associadas, como diabetes e hipertensão. Importante rever hábitos e buscar ajuda antes de, por uma série de fatores, entrar na faixa da obesidade pra valer.</string>
+    <string name="obesidade1">Obesidade Grau I, sinal de alerta! Chegou na hora de se cuidar, mesmo que seus exames sejam normais. Vamos dar início a mudanças hoje! Cuide de sua alimentação. Você precisa iniciar um acompanhamento com nutricionista e/ou endocrinologista.</string>
+    <string name="obesidade2">"Obesidade Grau II, mesmo que seus exames aparentem estar normais, é hora de se cuidar, iniciando mudanças no estilo de vida com o acompanhamento próximo de profissionais de saúde. "</string>
+    <string name="obesidade3">Obesidade Grau III, aqui o sinal é vermelho, com forte probabilidade de já existirem doenças muito graves associadas. O tratamento deve ser ainda mais urgente.</string>
+    <string name="emptyFields">Por favor digite uma altura e largura para que o calculo possa ser realizado</string>
+</resources>
