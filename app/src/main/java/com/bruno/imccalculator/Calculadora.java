@@ -117,6 +117,12 @@ public class Calculadora extends AppCompatActivity {
             imcClassification.setText(R.string.emptyFields);
             imcClassification.setAlpha(1.0F);
             imcClassification.setAnimation(unhideAnimation());
+            if(weight.getText().toString().isEmpty()){
+                weight.requestFocus();
+            }else{
+                height.requestFocus();
+            }
+
         }else{
             double imcResult = Double.parseDouble(weight.getText().toString())/Math.pow(
                     Double.parseDouble(height.getText().toString()),2);
@@ -140,6 +146,7 @@ public class Calculadora extends AppCompatActivity {
 
             textResult01.setAlpha(1.0F);
             textResult01.startAnimation(unhideAnimation());
+            imcClassification.setTextColor(Color.parseColor("#FFFFFF"));
             imcClassification.setAlpha(1.0F);
             imcClassification.startAnimation(unhideAnimation());
             table.setAlpha(1.0F);
